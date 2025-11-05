@@ -4,6 +4,10 @@ import './Styles/navbar.css'
 
 const Navbar = () => {
  const [menuOpen, setMenuOpen] = useState(false);
+
+ const handleLinkClick = () => {
+    setMenuOpen(false);
+ }
   return (
     <nav className='navbar'>
         <div className='navbar-brand'>
@@ -14,12 +18,12 @@ const Navbar = () => {
             </button>
         
         <ul className={`navbar-links ${menuOpen ? 'active' : ''}`}>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/books">Books</Link></li>
-            <li><Link to="/loan">Borrow</Link></li>
-            <li><Link to="/reserve">Reserve</Link></li>
-            <li><Link to="/login">Login</Link></li>
-            <li><Link to="/register">Sign up</Link></li>
+            <li><Link to="/" onClick={handleLinkClick}>Home</Link></li>
+            <li><Link to="/books" onClick={handleLinkClick}>Books</Link></li>
+            <li><Link to="/loan" onClick={handleLinkClick}>Borrow</Link></li>
+            <li><Link to="/reserve" onClick={handleLinkClick}>Reserve</Link></li>
+            <li><Link to="/login" onClick={handleLinkClick}>Login</Link></li>
+            <li><Link to="/register" onClick={handleLinkClick}>Sign up</Link></li>
         </ul>
     </nav>
   )
