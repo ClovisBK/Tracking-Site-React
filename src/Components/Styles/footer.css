@@ -1,0 +1,33 @@
+.upper-div{
+    background-color: #573227;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.upper-div h1, p{
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+.upper-div h1{
+    font-size: 40px;
+}
+.upper-div p{
+    font-size: 25px;
+}
+.global-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.3rem;
+    background-color: #40231a;
+    padding: 20px
+}
+.global-container h2{
+    color: #ffbe03;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+ul li{
+    color: white;
+    margin-top: 15px;
+}
