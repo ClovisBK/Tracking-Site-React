@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="lower-div">
             <div className="global-container">
                 <div className="global-partition">
-                    <div className="company">GlOBAL<span>TRACK</span>Powered by Ups & Global Partners</div>
+                    <div className="company">GlOBAL<span style={{color: "yellow"}}>TRACK</span></div>
                     <p>Your trusted partner in global losgistics and transportation services. Delivering excellence in shipping solutions since 2020</p>
                 </div>
                 <div className="quick-links">
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
                 <div className="contact-us">
                     <h2>Contact</h2>
-                    <Link>globaltrackteam@gmail.com</Link>
+                    <Link style={{color: "white"}}>globaltrackteam@gmail.com</Link>
                 </div>
             </div>
         </div>

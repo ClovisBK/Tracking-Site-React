@@ -31,3 +31,10 @@ ul li{
     color: white;
     margin-top: 15px;
 }
+.global-partition p{
+    font-weight: 400;
+}
+.global-partition .company{
+    color: white;
+    
+}

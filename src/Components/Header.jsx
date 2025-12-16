@@ -17,7 +17,7 @@ const Header = () => {
                   padding: "5px",
                   color: "white"
                   }}>GLOBAL<span style={{color: "#ffbe03"}}>TRACK</span></Link>
-                  <p>Powered by <br /><span style={{
+                  <p style={{color: "grey"}}>Powered by <br /><span style={{
                     color: "#ffbe03", 
                     fontWeight: "bolder", 
                     backgroundColor: "#351c15",
