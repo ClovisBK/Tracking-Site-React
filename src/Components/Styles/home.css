@@ -1,4 +1,18 @@
 .image-section h1{
     align-items: center;
     font-size: bold;
+    
+}
+.informatics div{
+    padding: 15px 35px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+.information{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    
+    padding: 100px;
 }

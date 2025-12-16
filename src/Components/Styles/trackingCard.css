@@ -1,0 +1,22 @@
+.tracking-card .image{
+    width: 100%;
+    height: 200px;
+}
+.tracking-card .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    
+}
+.tracking-card h1{
+    color: #47281D;
+}
+.tracking-card p{
+    color: grey;
+}
+.tracking-card{
+    border: .5rem;
+    box-shadow: 0 2px 4px black;
+    border-radius: .5rem;
+    
+}
