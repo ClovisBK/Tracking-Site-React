@@ -9,10 +9,53 @@
     font-size: 1.3rem;
     color: white;
 }
-.information{
+.information, .card-section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-    
     padding: 100px;
+}
+.card-section{
+    padding: 50px 100px;
+}
+.service-card{
+    box-shadow: 0 1px 3px grey;
+    text-align: center;
+    border-top: 4px solid #ffbe03;
+    border-radius: .5rem;
+    margin: auto;
+    padding: 0 0 10px 0;
+    
+}
+.service-card .text{
+    margin-bottom: 10px;
+    
+}
+.working .icon{
+    background-color: rgb(54, 30, 30);
+}
+.achievement{
+    padding: 30px;
+    border-top: none;
+}
+.achievement .icon{
+    padding: 1px;
+}
+.working{
+    border-top: none;
+}
+.reliable{
+    border-top: none;
+}
+.icon{
+    height: 80px;
+    border-radius: 30px;
+    width: fit-content;
+    background-color: rgba(128, 128, 128, 0.4);
+    padding: 10px;
+    justify-self: center;
+    margin-top: 10px;
+}
+.service-card .text{
+    font-weight: 300;
 }

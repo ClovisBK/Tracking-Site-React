@@ -10,9 +10,13 @@
 }
 .tracking-card h1{
     color: #47281D;
+    font-weight: 500;
+    padding: 1px 8px;
 }
-.tracking-card p{
+.caption div{
     color: grey;
+    font-weight: 200;
+    padding: 5px 8px;
 }
 .tracking-card{
     border: .5rem;
